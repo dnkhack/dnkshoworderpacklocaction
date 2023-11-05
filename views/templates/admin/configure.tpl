@@ -16,7 +16,7 @@
  * @license    Valid for 1 website (or project) for each purchase of license
 *}
 <div class="panel">
-	<iframe src="https://addons.prestashop.com/en/2_community-developer?contributor=437828" style="width:100%;height:800px">
+	<iframe src="https://dnk.software" style="width:100%;height:800px">
 		DNK Soft
 	</iframe>
 </div>

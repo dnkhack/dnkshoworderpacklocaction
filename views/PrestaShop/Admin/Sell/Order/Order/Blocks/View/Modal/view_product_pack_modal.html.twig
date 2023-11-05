@@ -22,7 +22,11 @@
  * @copyright Since 2007 PrestaShop SA and Contributors
  * @license   https://opensource.org/licenses/OSL-3.0 Open Software License (OSL 3.0)
  *#}
-
+{{ dump(orderForViewing.products.products) }}
+{% for item in orderForViewing.products.products %}
+  {#{% set item = item|merge([{'supplierReference': item.location}]) %}#}
+  {{ dump(item) }}
+{% endfor %}
 <div class="modal fade" id="product-pack-modal" tabindex="-1" role="dialog">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
@@ -65,6 +69,9 @@
                 </p>
                 <p class="mb-0 product-supplier-reference">
                   {{ 'Supplier reference:'|trans({}, 'Admin.Orderscustomers.Feature') }}
+                </p>
+                <p class="mb-0 product-location">
+                  {{ 'Location:'|trans({}, 'Admin.Orderscustomers.Feature') }}
                 </p>
               </a>
             </td>
