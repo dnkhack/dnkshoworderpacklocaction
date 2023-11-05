@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>dnkshoworderpacklocaction</name>
+	<displayName><![CDATA[DNK Show Order Pack Location]]></displayName>
+	<version><![CDATA[1.0.0]]></version>
+	<description><![CDATA[Show a warehouse location for a pack of products on the order page]]></description>
+	<author><![CDATA[DNK Soft]]></author>
+	<tab><![CDATA[market_place]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+</module>
