@@ -36,7 +36,7 @@ class Dnkshoworderpacklocaction extends Module
         parent::__construct();
 
         $this->displayName = $this->l('DNK Show Order Pack Location');
-        $this->description = $this->l('Show a warehouse location for a pack of products on the order page');
+        $this->description = $this->l('Show a stock location for a pack of products on the order page');
 
         $this->ps_versions_compliancy = ['min' => '1.7', 'max' => _PS_VERSION_];
     }
