@@ -22,11 +22,6 @@
  * @copyright Since 2007 PrestaShop SA and Contributors
  * @license   https://opensource.org/licenses/OSL-3.0 Open Software License (OSL 3.0)
  *#}
-
-{% for item in orderForViewing.products.products %}
-  {#{% set item = item|merge([{'supplierReference': item.location}]) %}#}
-  {{ dump(item) }}
-{% endfor %}
 <div class="modal fade" id="product-pack-modal" tabindex="-1" role="dialog">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
